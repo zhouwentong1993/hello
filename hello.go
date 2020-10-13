@@ -1,9 +1,12 @@
 package hello
 
-import "rsc.io/quote/v3"
+import (
+	"github.com/zhouwentong1993/hello0"
+	"rsc.io/quote/v3"
+)
 
 func Hello() string {
-	return quote.HelloV3()
+	return hello.Hello()
 }
 
 func Proverb() string {
